@@ -1,0 +1,7 @@
+{"firstName":"Texas","lastName":"TX","netID":"tex180000","email":"tex180000@ut.edu","trl":{"date":"2020-11-13","value":0.16666666666666666}}
+{"firstName":"Amazon","lastName":"company","netID":"azm210000","email":"azm210000@utdallas.edu","trl":{"date":"2020-11-13","value":0.16666666666666666}}
+{"firstName":"Alex","lastName":"Neal","netID":"ajn170130","email":"ajn170130@utdallas.edu","trl":{"date":"2020-11-15","value":0.13333333333333333}}
+{"firstName":"Santa","lastName":"Claus","netID":"sac123456","email":"santa@gmail.com","trl":{"date":"2020-11-15","value":1.0}}
+{"firstName":"Raman","lastName":"Srivastava","netID":"rks170530","email":"rks170530@utdallas.edu","trl":{"date":"2020-11-06","value":0.23333333333333334}}
+{"firstName":"Nithish","lastName":"Kamath","netID":"nxk190031","email":"nxk190031@utdallas.edu","trl":{"date":"2020-11-17","value":0.26666666666666666}}
+{"firstName":"texas","lastName":"TX","netID":"Bxh190000","email":"Bxh190000@utdallas.edu","trl":{"date":"2020-11-27","value":0.2}}

@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2020-11-15T17:33:48.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="vsNYuCBjAnnrrH-_u9EP" version="13.8.7" type="github">
+  <diagram id="lhht0xlftqUyrEFXyDa8" name="Page-1">
+    <mxGraphModel dx="1185" dy="635" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dw4eQjsinpeuOWa6T3c--1" value=":Search&amp;nbsp;&lt;br&gt;Controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="318" y="90" width="100" height="407" as="geometry" />
+        </mxCell>
+        <mxCell id="dw4eQjsinpeuOWa6T3c--2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="dw4eQjsinpeuOWa6T3c--1">
+          <mxGeometry x="45" y="100" width="10" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="dw4eQjsinpeuOWa6T3c--3" value=":DB_mgr" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="509" y="90" width="100" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="dw4eQjsinpeuOWa6T3c--4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="dw4eQjsinpeuOWa6T3c--3">
+          <mxGeometry x="45" y="196.5" width="10" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="dw4eQjsinpeuOWa6T3c--5" value=":Search&lt;br&gt;GUI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="178" y="90" width="100" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="dw4eQjsinpeuOWa6T3c--6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="dw4eQjsinpeuOWa6T3c--5">
+          <mxGeometry x="45" y="100" width="10" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="dw4eQjsinpeuOWa6T3c--7" value="searchStudent&lt;br&gt;(NetID)" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="dw4eQjsinpeuOWa6T3c--6" target="dw4eQjsinpeuOWa6T3c--2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="248" y="200.06" as="sourcePoint" />
+            <mxPoint x="338" y="200.06" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="248" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dw4eQjsinpeuOWa6T3c--8" value="jsonObject:=query(N&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;etID&lt;/span&gt;&lt;/font&gt;)" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="dw4eQjsinpeuOWa6T3c--2" target="dw4eQjsinpeuOWa6T3c--4">
+          <mxGeometry x="0.0166" y="8" relative="1" as="geometry">
+            <mxPoint x="374" y="260" as="sourcePoint" />
+            <mxPoint x="520" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="406" y="305" />
+              <mxPoint x="513" y="214" />
+              <mxPoint x="480" y="240" />
+              <mxPoint x="380" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dw4eQjsinpeuOWa6T3c--9" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="130" width="25" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="dw4eQjsinpeuOWa6T3c--10" value="Student" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="133" y="140" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dw4eQjsinpeuOWa6T3c--11" value="buttonAction&lt;br&gt;(NetID)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="dw4eQjsinpeuOWa6T3c--9" target="dw4eQjsinpeuOWa6T3c--6">
+          <mxGeometry x="-0.0609" width="80" relative="1" as="geometry">
+            <mxPoint x="105.72222222222217" y="190.88" as="sourcePoint" />
+            <mxPoint x="203" y="191" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="218" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dw4eQjsinpeuOWa6T3c--12" value="&amp;lt;&amp;lt;msg:= &lt;br&gt;TRL&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.067;exitY=0.955;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.036" relative="1" as="geometry">
+            <mxPoint x="222.32999999999993" y="430" as="sourcePoint" />
+            <mxPoint x="102" y="430" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dw4eQjsinpeuOWa6T3c--13" value="Student Searches for Another Student&#39;s TRL" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="117" y="52" width="560" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dw4eQjsinpeuOWa6T3c--14" value="return jsonObject/null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="401" width="123" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="dw4eQjsinpeuOWa6T3c--15" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="362" y="420" as="sourcePoint" />
+            <mxPoint x="232.0999999999999" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dw4eQjsinpeuOWa6T3c--16" value="&lt;span&gt;jsonObject&lt;/span&gt;:&lt;br&gt;Student &amp;amp; TRL (JSONObject)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="620" y="90" width="100" height="390" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
