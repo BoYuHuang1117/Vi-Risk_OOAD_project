@@ -50,4 +50,4 @@ Fill in the rest of the survey. After clicking _submit_, the following window wi
 
 ### Support
 
-Interested in our project? Check out the [source code](https://github.com/BoYuHuang1117/Vi-Risk_OOAD_project).
+Interested in our project? Check out the [source code](https://github.com/BoYuHuang1117/Vi-Risk_UTD/tree/main).
