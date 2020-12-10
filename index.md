@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+## Welcome to Vi-Risk
 
-You can use the [editor on GitHub](https://github.com/BoYuHuang1117/Vi-Risk_OOAD_project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This application is for UTD member exclusively.
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+*Login*
+*Take Survey*
+*Upload the file*
+*Search other's Transmission Risk Level (TRL)*
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+Features
+- User-friendly
+- 7 days auto reminder
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## How to run it
 
-### Jekyll Themes
+#### Step 1. Right click on Vi-Risk.jar
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BoYuHuang1117/Vi-Risk_OOAD_project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Upon clicking, the automatic email will be sent to user who hasn't done the survey for the last seven days.
 
-### Support or Contact
+#### Step 2. Login process
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<img width="605" alt="1" src="https://user-images.githubusercontent.com/38172621/101353512-55f07980-3859-11eb-9f72-e690ca5a0769.PNG">
+
+_No actual authentication!!!_
+username: According to UTD login username, three English letters (case insensitive) followed by six digits will be allowed.  
+password: It requires one digit, one uppercase letter and one lowercase letter. The system doesn't support account creation. 
+
+#### Step 3. Main operation page
+
+<img width="604" alt="2" src="https://user-images.githubusercontent.com/38172621/101354558-f72bff80-385a-11eb-8f1c-6ceed880e8d0.PNG">
+
+#### Step 3.1 Search other Student's Transmission Risk Level (TRL)
+
+_Notice that the function only exist when user has already done the survey within the last seven days._
+
+Do it by simply entering his or her NetID.
+
+#### Step 3.2 Perform a survey
+
+<img width="603" alt="3" src="https://user-images.githubusercontent.com/38172621/101354724-378b7d80-385b-11eb-86ce-e5421853357c.PNG">
+
+Fill in the rest of the survey. After clicking _submit_, the following window will pop out.
+
+<img width="319" alt="4" src="https://user-images.githubusercontent.com/38172621/101355283-f778ca80-385b-11eb-9092-c035e98b8a7d.PNG">
+
+### Support
+
+Interested in our project? Check out the [source code](https://github.com/BoYuHuang1117/Vi-Risk_OOAD_project).
